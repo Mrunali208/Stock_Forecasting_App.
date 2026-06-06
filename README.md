@@ -1,55 +1,149 @@
-# 📈 Stock Price Forecasting App
+# 📈 Stock Price Forecasting Dashboard
 
-An advanced Stock Price Forecasting System built with Streamlit that leverages multiple time series models including ARIMA, SARIMA, Prophet, and LSTM to predict future stock prices.
+An end-to-end Stock Price Forecasting Application built using Streamlit and multiple time-series forecasting models including ARIMA, SARIMA, Prophet, and LSTM.
+
+The application enables users to analyze historical stock market trends, compare forecasting models, and visualize future stock price predictions through an interactive dashboard.
 
 ---
 
-## 📌 Features
+## 🚀 Features
 
-✅ Interactive Streamlit web interface  
-✅ Load stock data from CSV or yfinance  
-✅ Support for multiple forecasting models:
-- ARIMA
-- SARIMA
+- Interactive Streamlit Dashboard
+- Real-time stock data retrieval using Yahoo Finance
+- Historical stock trend visualization
+- Multiple forecasting models:
+  - ARIMA
+  - SARIMA
+  - Prophet
+  - LSTM
+- Model performance comparison
+- ACF/PACF analysis
+- Trend and seasonality analysis
+- Interactive Plotly visualizations
+- Forecasting for next 30 days
+
+---
+
+## 🧠 Forecasting Models
+
+| Model | Type | Purpose |
+|---------|---------|---------|
+| ARIMA | Statistical | Linear trend forecasting |
+| SARIMA | Statistical | Seasonal trend forecasting |
+| Prophet | Hybrid | Trend + seasonality modeling |
+| LSTM | Deep Learning | Complex nonlinear forecasting |
+
+---
+
+## 📊 Tech Stack
+
+### Programming Language
+- Python
+
+### Frontend
+- Streamlit
+
+### Data Collection
+- Yahoo Finance (yfinance)
+
+### Data Analysis
+- Pandas
+- NumPy
+
+### Visualization
+- Plotly
+- Matplotlib
+
+### Forecasting Libraries
+- Statsmodels
 - Prophet
-- LSTM  
-✅ Auto train & visualize forecasts  
-✅ ACF/PACF and trend analysis  
-✅ Downloadable outputs (planned)  
-✅ Plotly-powered interactive visualizations
-
----
-
-## 🧠 Models Included
-
-| Model   | Type        | Use Case                    |
-|---------|-------------|-----------------------------|
-| ARIMA   | Statistical | Simple, linear patterns     |
-| SARIMA  | Statistical | Seasonal patterns           |
-| Prophet | Hybrid      | Trend + seasonality + outliers |
-| LSTM    | Deep Learning | Complex, nonlinear sequences |
+- TensorFlow / Keras
 
 ---
 
 ## 📂 Project Structure
+
+```text
 Stock_Forecasting_App/
 │
-├── streamlit_app.py # Streamlit frontend
-├── TIME_SERIES_AND_STOCK_ANALYSIS_pyib.ipynb # Model training notebook
-├── DOCUMENTATION.md # Detailed documentation
-├── README.md
+├── streamlit_app.py
+├── TIME_SERIES_AND_STOCK_ANALYSIS.ipynb
 ├── requirements.txt
+├── README.md
+├── DOCUMENTATION.md
+└── screenshots/
+```
 
-📚 Tech Stack
-Frontend: Streamlit
-Backend / Forecasting: Python (statsmodels, fbprophet, keras)
-Data Handling: Pandas, NumPy
-Visualization: Matplotlib, Plotly
-Time Series: statsmodels, Prophet, TensorFlow/Keras
+---
 
-🛠️ Future Enhancements
-✅ Dynamic stock ticker selection (in progress)
-⏳ Downloadable forecast reports
-🔐 Secure user authentication
-📅 Scheduling model retraining
+## 📸 Screenshots
 
+### Historical Closing Price
+
+![Historical Price](screenshots/AAPL%20Closing%20Price%20(2018-2024).png)
+
+---
+
+### ARIMA Forecast
+
+![ARIMA Forecast](screenshots/AAPL%20ARIMA%20Forecast%20(next%2030%20days).png)
+
+---
+
+### SARIMA Forecast
+
+![SARIMA Forecast](screenshots/AAPL%20SARIMA%20Forecast%20(next%2030%20days).png)
+
+---
+
+### Prophet Forecast
+
+![Prophet Forecast](screenshots/AAPL%20PROPHET%20Forecast%20(next%2030%20days).png)
+
+---
+
+### LSTM Forecast
+
+![LSTM Forecast](screenshots/AAPL%20LSTM%20Forecast%20(next%2030%20days).png)
+
+---
+
+### Model Comparison
+
+![Model Comparison](screenshots/Model%20Comparison-%20Actual%20vs%20Forecast.png)
+
+---
+
+## 📈 Model Evaluation
+
+Models were evaluated using:
+
+- RMSE (Root Mean Square Error)
+- MAE (Mean Absolute Error)
+
+The comparison enables users to identify the most suitable forecasting approach for a selected stock.
+
+---
+
+## 🔮 Future Enhancements
+
+- Dynamic stock ticker selection
+- Multi-stock comparison
+- Downloadable PDF reports
+- Portfolio performance analytics
+- Cloud deployment using AWS
+- Automated model retraining pipeline
+
+---
+
+## 👩‍💻 Author
+
+**Mrunali Patil**
+
+Aspiring Data Analyst | Python Developer | AWS Enthusiast
+
+🔗 LinkedIn: www.linkedin.com/in/patil-mrunali
+
+---
+
+⭐ If you found this project useful, consider giving it a star.
