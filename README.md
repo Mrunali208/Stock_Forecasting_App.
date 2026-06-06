@@ -1,4 +1,4 @@
-# 📈 Stock Price Forecasting Dashboard
+ 📈 Stock Price Forecasting Dashboard
 
 An end-to-end Stock Price Forecasting Application built using Streamlit and multiple time-series forecasting models including ARIMA, SARIMA, Prophet, and LSTM.
 
@@ -6,7 +6,7 @@ The application enables users to analyze historical stock market trends, compare
 
 ---
 
-## 🚀 Features
+ 🚀 Features
 
 - Interactive Streamlit Dashboard
 - Real-time stock data retrieval using Yahoo Finance
@@ -24,7 +24,7 @@ The application enables users to analyze historical stock market trends, compare
 
 ---
 
-## 🧠 Forecasting Models
+🧠 Forecasting Models
 
 | Model | Type | Purpose |
 |---------|---------|---------|
@@ -35,7 +35,7 @@ The application enables users to analyze historical stock market trends, compare
 
 ---
 
-## 📊 Tech Stack
+ 📊 Tech Stack
 
 ### Programming Language
 - Python
@@ -61,7 +61,7 @@ The application enables users to analyze historical stock market trends, compare
 
 ---
 
-## 📂 Project Structure
+📂 Project Structure
 
 ```text
 Stock_Forecasting_App/
@@ -76,7 +76,7 @@ Stock_Forecasting_App/
 
 ---
 
-## 📸 Screenshots
+📸 Screenshots
 
 ### Historical Closing Price
 
@@ -114,7 +114,7 @@ Stock_Forecasting_App/
 
 ---
 
-## 📈 Model Evaluation
+📈 Model Evaluation
 
 Models were evaluated using:
 
@@ -125,7 +125,7 @@ The comparison enables users to identify the most suitable forecasting approach 
 
 ---
 
-## 🔮 Future Enhancements
+ 🔮 Future Enhancements
 
 - Dynamic stock ticker selection
 - Multi-stock comparison
@@ -136,7 +136,7 @@ The comparison enables users to identify the most suitable forecasting approach 
 
 ---
 
-## 👩‍💻 Author
+ 👩‍💻 Author
 
 **Mrunali Patil**
 
@@ -146,4 +146,3 @@ Aspiring Data Analyst | Python Developer | AWS Enthusiast
 
 ---
 
-⭐ If you found this project useful, consider giving it a star.

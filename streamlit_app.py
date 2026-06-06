@@ -47,7 +47,6 @@ if st.sidebar.button('Run Prediction'):
                     model = ARIMA(close_series, order=model_auto.order)
                     fitted_model = model.fit()
                     st.write("Model fitting complete.")
-
                 st.subheader(f"Forecast for {stock_symbol} (Next {forecast_steps} Days)")
                 forecast = fitted_model.forecast(steps=forecast_steps)
 
@@ -68,3 +67,5 @@ if st.sidebar.button('Run Prediction'):
                 st.success('Prediction complete!')
     else:
         st.warning('Please enter a stock symbol and select valid dates.') 
+
+df.plot(close_series, )
